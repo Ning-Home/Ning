@@ -1,0 +1,40 @@
+
+// 頁面層級設定
+$z-index: ( 'bar':1, 'gradient_line':3, 'M_Img':2, 'R_Img':1, 'top_bar': 8, 'i_menu': 9, 'cover': 10 )  
+@function layer($key)
+  @return map-get( $z-index, $key)
+
+// 字體
+html
+  font-size: 10pt
+  font-family: "Comfortaa","Noto Sans TC"
+  background-color: #fff
+
+    
+// 字體顏色
+$D_Gray: #303232
+$M_Gray: #98A3AB
+$L_Gray: #E2E2E1
+$white: #fff
+
+// 字體大小
+$L_Font: 50pt
+$B_Font: 30pt
+$M_Font: 20pt
+$S_Font: 12pt
+
+// RWD字體大小
+$RWD_Top_Bar: 8vw
+$RWD_1200_Font: 1.2vw
+$RWD_800_Font: 1.8vw
+$RWD_414_Font: 4vw
+$RWD_414_B_Font: 6vw
+
+// 網站顏色
+$C_Color: #339999
+$M_Color: #CC3333
+$Y_Color: #cc6
+$K_Color: #333
+
+
+
