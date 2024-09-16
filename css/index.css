@@ -1,4 +1,4 @@
-@Import url('https://ning-home.github.io/Ning/css/normalize.css');
+@Import url('../css/normalize.css');
 
 body {
     width: 70vw;
