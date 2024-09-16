@@ -1,3 +1,4 @@
+@Import url('normalize.css');
 
 body {
     width: 70vw;
