@@ -78,8 +78,14 @@ a {
   text-decoration: none;
 }
 
+ul {
+  padding-inline-start:0;
+  list-style-type: none;
+}
+
 li {
-  list-style: none;
+  list-style-type: none;
+  padding-inline-start:0;
 }
 
 

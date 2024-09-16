@@ -4,25 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="/css/index.css">
     <title>Nice to meet you</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
 
-<div>
+
     <div class="bar">
-        <a href="#">室內設計</a>
-        <a href="#">平面設計</a>
-        <a href="#">產品設計</a>
-        <div class="gradient_line"> <!--分隔--> </div>
+        <ul>
+            <li><a href="#">室內設計</a></li>
+            <li><a href="#">平面設計</a></li>
+            <li><a href="#">產品設計</a></li>
+            <li><a href="#">日常</a></li>
+        </ul>
     </div>
 
-    <div>
+
+    <div class="container">
         <!-----------------------Interior Design---------------------->
-        <div>室內空間</div>
+        <div class="type">
+        <div class="title">室內空間</div>
         <div class="gradient_line"> <!--分隔--> </div>
         <ul class="list">
                 <li class="card">
@@ -32,11 +38,14 @@
                 <li class="card">
                     <a href=""><img src="" alt=""></a></li>
                 <li class="card">
-                    <a href=""><img src="" alt=""></a></li>                 
-        </ul>
-            <div><a href="">more</a></div>
+                    <a href=""><img src="" alt=""></a></li>
+                <li class="card">
+                    <a href=""><img src="" alt=""></a></li>      
+                </ul>
+            <a class="more">MORE</a>
         </div>
         <!-----------------------Graphic Design--------------------->
+        <div class="type">
         <div>平面包裝</div>
         <div class="gradient_line"> <!--分隔--> </div>
         <ul class="list">
@@ -49,9 +58,10 @@
             <li class="card">
                 <a href=""><img src="" alt=""></a></li>                 
         </ul>
-        <div><a href="">more</a></div>
-    </div>
+        <a class="more" href="">MORE</a>
+        </div>
         <!-----------------------Industrial Design---------------------->
+        <div class="type">
         <div>產品物件</div> 
         <div class="gradient_line"> <!--分隔--> </div>    
         <ul class="list">
@@ -63,12 +73,14 @@
                 <a href=""><img src="" alt=""></a></li>
             <li class="card">
                 <a href=""><img src="" alt=""></a></li>                 
-    </ul>
-        <div><a href="">more</a></div>
-    </div>
-            <div><a href="">more</a></div>
+        </ul>
+        <a class="more" href="">MORE</a>
+
+        </div>
+
         <!-----------------------Others---------------------->
-        <div>愛好</div>   
+        <div class="type">
+        <div>日常</div>   
         <div class="gradient_line"> <!--分隔--> </div>  
         <div class="list">
             <div>
@@ -77,10 +89,10 @@
                 <a href=""></a><div class="button"><img src="" alt="">攝影</div></a>
                 <a href=""></a><div class="button"><img src="" alt="">占卜療癒</div></a>
             </div>  
-            <div><a href="">more</a></div>
+            <div class="more" href="">MORE</a>
         </div>
-    
-</div>
+    </div>
+
 
 </body>
 </html>
