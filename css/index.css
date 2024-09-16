@@ -55,11 +55,28 @@ body {
 }
 
 .button {
-    background-color: #769f8a;
-    margin: 1em 1em;
+    display: inline-flex;
+    background-color: #90c3a9;
+    margin: 0 auto;
+    padding: .5em 1em;
     color: #fff;
     font-size: 1em;
     text-align: center;
     line-height: 1.7em;
+    border-radius: 1em;
+}
 
+.button:hover {
+    background-color: #4cdcb3;
+    cursor: pointer;
+    transition: .4s;
+    border-radius: 1.8em;
+}
+
+.button:active {
+    background-color: #42aa89;
+    cursor: default;
+    transform: scale(0.97);
+    transition: .1s;
+    color: #2b6855;
 }
